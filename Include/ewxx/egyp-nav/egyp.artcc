@@ -3,4 +3,4 @@
 // Developed by the IVAO XU community   //
 //////////////////////////////////////////
 
-//Overseas Group
+//EGYP

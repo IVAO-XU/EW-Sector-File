@@ -6,10 +6,10 @@
 [INFO]
 S051.49.21.680
 W058.26.45.420
-52
-51
--2.81
-egyp;egyp\ew-documentation;egyp\egyp-nav;egyp\egyp-military\airfields-layouts;egyp\egyp-military\gates;egyp\egyp-military\sids;egyp\egyp-military\stars;egyp\egyp-military\taxiways;egyp\ewpx;egyp\ewpx\airfield-layouts;egyp\ewpx\sids;egyp\ewpx\stars;egyp\ewpx\taxiways;egyp\ewpx\visual;egyp\ewpx\gates;egyp\ewpx\rma;egyp\egyp;egyp\egyp\airfield-layouts;egyp\egyp\gates;egyp\egyp\sids;egyp\egyp\stars;egyp\egyp\taxiways;egyp\egyp\visual;egyp\egyp\rma
+60
+36
+-0.5
+ewxx;ewxx\egyp-nav;egyp\egyp-military\airfields-layouts;egyp\egyp-military\gates;egyp\egyp-military\sids;egyp\egyp-military\stars;egyp\egyp-military\taxiways;egyp\ewpx;egyp\ewpx\airfield-layouts;egyp\ewpx\sids;egyp\ewpx\stars;egyp\ewpx\taxiways;egyp\ewpx\visual;egyp\ewpx\gates;egyp\ewpx\rma;egyp\egyp;egyp\egyp\airfield-layouts;egyp\egyp\gates;egyp\egyp\sids;egyp\egyp\stars;egyp\egyp\taxiways;egyp\egyp\visual;egyp\egyp\rma
 
 [DEFINE]
 TRAS;#960000;
@@ -45,12 +45,8 @@ F;egyp-nav\egyp.gts
 F;egyp-nav\egyp-fix.fix
 F;egyp-nav\egyp-procedure-fix.fix
 F;egyp-nav\egyp-foreign-fix.fix
-F;egyp-nav\egyp-military-fix.fix
-F;egyp-nav\egyp-military-procedure-fix.fix
 
 [NDB]
-F;egyp-nav\egyp-ndb.ndb
-F;egyp-nav\egyp-foreign-ndb.ndb
 
 [VOR]
 F;egyp-nav\egyp-vor.vor
@@ -64,14 +60,11 @@ F;egyp-nav\egyp-low-airways.lairway
 F;egyp-nav\egyp-high-airways.hairway
 
 [ARTCC HIGH]
-//HS button aka high sectors
 F;egyp-nav\egyp.artcc
 F;egyp-nav\foreign-airspace.artcc
 
 [ARTCC LOW]
-//LS button aka low sectors
 F;egyp-nav\ctr-cta-airport.airspace
-F;egyp-nav\egyp-military-matz-atz.airspace
 
 [ARTCC]
 F;egyp-nav\egyp-high-sectors.artcc
@@ -80,20 +73,10 @@ F;egyp-nav\egyp-low-sectors.artcc
 [GEO]
 F;egyp-nav\egyp-coastline.geo
 F;egyp-nav\egyp-tma-cta-ctr.geo
-F;egyp-nav\egyp-danger-areas.danger
-F;egyp-nav\egyp-prohibited-areas.prohibited
-F;egyp-nav\egyp-restricted-areas.restricted
-F;egyp-nav\egyp-military-training-areas.geo
-F;egyp-nav\egyp-military-refuelling-areas.geo
-F;egyp-nav\egyp-military-radar-corridors.geo
-F;egyp\field-layouts\egyp.geo
+F;egyp\airfield-layouts\egyp.geo
 
 [FILLCOLOR]
-F;egyp-atc\coast.plf
-F;egyp-atc\ew-foreign-atc.plf
-F;egyp-atc\egyp-atc.plf
-F;egyp-atc\shaded-rma.plf
-F;EGYP\field\layouts\egyp.plf
+F;EGYP\airfield-layouts\egyp.plf
 
 [PROFILE]
 F;egyp.cpr

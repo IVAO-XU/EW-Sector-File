@@ -4,12 +4,12 @@
 //////////////////////////////////////////
 
 [INFO]
-N051.28.39.000
-W000.27.41.000
+N036.09.04.180
+W005.20.58.544
 60
 37.4
 -0.1
-ewxx;ewxx\ew-documentation;ewxx\ew-nav;ewxx\ew-military\airfields-layouts;ewxx\ew-military\gates;ewxx\ew-military\sids;ewxx\ew-military\stars;ewxx\ew-military\taxiways;ewxx\ewpx;ewxx\ewpx\airfield-layouts;ewxx\ewpx\sids;ewxx\ewpx\stars;ewxx\ewpx\taxiways;ewxx\ewpx\visual;ewxx\ewpx\gates;ewxx\ewpx\rma;ewxx\ewxx;ewxx\ewxx\airfield-layouts;ewxx\ewxx\gates;ewxx\ewxx\sids;ewxx\ewxx\stars;ewxx\ewxx\taxiways;ewxx\ewxx\visual;ewxx\ewxx\rma
+ewxx;ewxx\lxgb-nav;ewxx\lxgb-military\airfields-layouts;ewxx\lxgb-military\gates;ewxx\lxgb-military\sids;ewxx\lxgb-military\stars;ewxx\lxgb-military\taxiways;ewxx\lxgb;ewxx\lxgb\airfield-layouts;ewxx\lxgb\sids;ewxx\lxgb\stars;ewxx\lxgb\taxiways;ewxx\lxgb\visual;ewxx\lxgb\gates;ewxx\lxgb\rma;ewxx\ewxx;ewxx\ewxx\airfield-layouts;ewxx\lxgb\gates;ewxx\lxgb\sids;ewxx\lxgb\stars;ewxx\lxgb\taxiways;ewxx\lxgb\visual;ewxx\lxgb\rma
 
 [DEFINE]
 TRAS;#960000;
@@ -17,8 +17,6 @@ REFUELLINGAREAS;#960000;
 RADARCORRIDORS;#960000;
 CTA;#323232;
 TMA;#323232;
-TAXIBLUE;#00A2FF;
-TAXIORANGE;#E16535;
 foreignatc;#0C0C0C;
 localatc;#0C0C0C;
 radaratc;#030303;
@@ -30,70 +28,69 @@ F;ewxx.atis
 
 [ATC]
 F;ewxx\ewxx-atc.atc
-F;ew-military\ew-military.atc
 
 [AIRPORT]
-F;ew-nav\ewxx-apt.apt
+F;lxgb-nav\lxgb-apt.apt
 
 [RUNWAY]
-F;ew-nav\ewxx-rwy.rwy
+F;lxgb-nav\lxgb-rwy.rwy
 
 [GATES]
-
+F;lxgb\gates\lxgb.gts
 
 [FIXES]
-F;ew-nav\ewxx-fix.fix
-F;ew-nav\ewxx-procedure-fix.fix
-F;ew-nav\ewxx-foreign-fix.fix
-F;ew-nav\ewxx-military-fix.fix
-F;ew-nav\ewxx-military-procedure-fix.fix
+F;lxgb-nav\lxgb-fix.fix
+F;lxgb-nav\lxgb-procedure-fix.fix
+F;lxgb-nav\lxgb-foreign-fix.fix
+F;lxgb-nav\lxgb-military-fix.fix
+F;lxgb-nav\lxgb-military-procedure-fix.fix
 
 [NDB]
-F;ew-nav\ewxx-ndb.ndb
-F;ew-nav\ewxx-foreign-ndb.ndb
+F;lxgb-nav\lxgb-ndb.ndb
+F;lxgb-nav\lxgb-foreign-ndb.ndb
 
 [VOR]
-F;ew-nav\ewxx-vor.vor
-F;ew-nav\ewxx-foreign-vor.vor
-F;ew-nav\ewxx-military-tacan.vor
+F;lxgb-nav\lxgb-vor.vor
+F;lxgb-nav\lxgb-foreign-vor.vor
+F;lxgb-nav\lxgb-military-tacan.vor
 
 [LOW AIRWAY]
-F;ew-nav\ewxx-low-airways.lairway
+F;lxgb-nav\lxgb-low-airways.lairway
 
 [HIGH AIRWAY]
-F;ew-nav\ewxx-high-airways.hairway
+F;lxgb-nav\lxgb-high-airways.hairway
 
 [ARTCC HIGH]
 //HS button aka high sectors
-F;ew-nav\ewxx.artcc
-F;ew-nav\foreign-airspace.artcc
+F;lxgb-nav\lxgb.artcc
+F;lxgb-nav\foreign-airspace.artcc
 
 [ARTCC LOW]
 //LS button aka low sectors
 F;ew-nav\ctr-cta-airport.airspace
-F;ew-nav\ewxx-military-matz-atz.airspace
+F;lxgb-nav\lxgb-military-matz-atz.airspace
 
 [ARTCC]
-F;ew-nav\ewxx-high-sectors.artcc
-F;ew-nav\ewxx-low-sectors.artcc
+F;lxgb-nav\lxgb-high-sectors.artcc
+F;lxgb-nav\lxgb-low-sectors.artcc
 
 [GEO]
-F;ew-nav\ewxx-coastline.geo
-//F;ew-nav\ewxx-tma-cta-ctr.geo
-F;ew-nav\ewxx-danger-areas.danger
-F;ew-nav\ewxx-prohibited-areas.prohibited
-F;ew-nav\ewxx-restricted-areas.restricted
-F;ew-nav\ewxx-military-training-areas.geo
-F;ew-nav\ewxx-military-refuelling-areas.geo
-F;ew-nav\ewxx-military-radar-corridors.geo
+F;lxgb-nav\lxgb-coastline.geo
+F;lxgb-nav\lxgb-tma-cta-ctr.geo
+F;lxgb-nav\lxgb-danger-areas.danger
+F;lxgb-nav\lxgb-prohibited-areas.prohibited
+F;lxgb-nav\lxgb-restricted-areas.restricted
+F;lxgb-nav\lxgb-military-training-areas.geo
+F;lxgb-nav\lxgb-military-refuelling-areas.geo
+F;lxgb-nav\lxgb-military-radar-corridors.geo
 F;LXGB\airfield-layouts\LXGB.geo
 
 [FILLCOLOR]
-F;ew-atc\coast.plf
-F;ew-atc\ew-foreign-atc.plf
-F;ew-atc\ew-atc.plf
-F;ew-atc\shaded-rma.plf
+F;lxgb-atc\coast.plf
+//F;lxgb-atc\ew-foreign-atc.plf
+//F;lxgb-atc\lxgb-atc.plf
+//F;lxgb-atc\shaded-rma.plf
 F;LXGB\airfield-layouts\lxgb.plf
 
 [PROFILE]
-F;ewxx.cpr
+F;lxgb.cpr
